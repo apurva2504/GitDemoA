@@ -1,0 +1,6 @@
+06:30:07.019 [main] INFO  resources.base - Hello
+06:30:32.188 [main] INFO  resources.base - Bye
+06:30:41.993 [main] INFO  resources.base - driver is initailzed
+06:31:14.266 [main] INFO  resources.base - Navigated to Home Page
+06:31:14.382 [main] INFO  resources.base - Successfully validated text message
+06:31:53.010 [main] INFO  resources.base - navigation bar is displayed 

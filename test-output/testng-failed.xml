@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="validateTitle(failed)">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="initalize"/>
+          <include name="basePageNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+    </classes>
+  </test> <!-- validateTitle(failed) -->
+  <test thread-count="5" name="HomePage(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="initalize"/>
+          <include name="basePageNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+  <test thread-count="5" name="validateNavigationBar(failed)">
+    <classes>
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initalize"/>
+          <include name="basePageNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+    </classes>
+  </test> <!-- validateNavigationBar(failed) -->
+</suite> <!-- Failed suite [Suite] -->
